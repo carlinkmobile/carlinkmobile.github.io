@@ -2,7 +2,7 @@ angular.module('project', ['ngRoute', 'ngResource', 'smart-table'])
 .config(function($routeProvider, $locationProvider, $httpProvider){
   $routeProvider
   .when('/', {
-    templateUrl: "templates/main.html",
+    templateUrl: "/clink/templates/main.html",
     controller: 'MainController'
   })
   .otherwise({
