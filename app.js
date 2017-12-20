@@ -1,8 +1,8 @@
-angular.module('project', ['ngRoute', 'ngResource', 'smart-table'])
+angular.module('project', ['ngRoute', 'ngResource', 'pubnub.angular.service'])
 .config(function($routeProvider, $locationProvider, $httpProvider){
   $routeProvider
   .when('/', {
-    templateUrl: "/clink/templates/main.html",
+    templateUrl: "templates/main.html",
     controller: 'MainController'
   })
   .otherwise({

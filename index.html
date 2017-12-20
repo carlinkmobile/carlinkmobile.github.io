@@ -1,20 +1,22 @@
 <!doctype html>
-<html ng-app='project'>
+<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="/clink/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/clink/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
     <base href="/">
   </head>
-  <body>
+  <body ng-app='project'>
     <ng-view></ng-view>
-    <script src="/clink/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/clink/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/clink/bower_components/angular/angular.min.js"></script>
-    <script src="/clink/bower_components/angular-route/angular-route.min.js"></script>
-    <script src="/clink/bower_components/angular-resource/angular-resource.min.js"></script>
-    <script src="/clink/bower_components/angular-smart-table/dist/smart-table.min.js"></script>
-    <script src="/clink/app.js" type="text/javascript"></script>
-    <script src="/clink/controllers/main_controller.js" type="text/javascript"></script>
+
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/angular-route/angular-route.min.js"></script>
+    <script src="./bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.19.0.min.js"></script>
+    <script src="https://cdn.pubnub.com/sdk/pubnub-angular/pubnub-angular-4.0.2.min.js"></script>
+    <script src="./app.js" type="text/javascript"></script>
+    <script src="./controllers/main_controller.js" type="text/javascript"></script>
   </body>
 </html>
